@@ -1,0 +1,10 @@
+#Create and activate a virtual env for python
+
+            # create and activate a virtual env for python
+            pip3 install virtualenv
+            virtualenv  ( python3 -m venv env)
+            source env/Scripts/activate  ( for windows)
+            source env/bin/activate  (for mac or linux)
+
+        *** Note: remember to install external modules if not yet installed before importing them. To install a module in python, use the command:
+            
