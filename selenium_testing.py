@@ -24,7 +24,7 @@ print(f"Connecting to {title1} page of Geolocation app")
 
 # identify the username box and enter the value  
 elem1 = driver.find_element(by=By.NAME, value="username")
-elem1.send_keys("root@utrains.test")
+elem1.send_keys("root@manny.test")
 time.sleep(2)
 
 # identify the password box and enter the value  
